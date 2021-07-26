@@ -1,6 +1,7 @@
 FROM php:7.2-apache
 
 RUN apt-get update
+RUN apt-get install -y iputils-ping
 RUN apt-get install -y libjpeg-dev libpng-dev
 
 # Extentions
