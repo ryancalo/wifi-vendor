@@ -19,8 +19,12 @@
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url('/admin/controller'); ?>"><i class='fa fa-cogs'></i> Controller</a>
       </li>
-
-
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('/admin/printer'); ?>"><i class='fa fa-cogs'></i> Printer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('/admin/galileo'); ?>"><i class='fa fa-cogs'></i> Galileo</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url('/wifivendo/logout'); ?>"><i class='fa fa-sign-out'></i> Logout</a>
       </li> 

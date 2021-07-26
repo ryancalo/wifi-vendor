@@ -12,7 +12,7 @@
 
                         <div class="card-body">
 
-                                    <form role="form" action="<?php echo base_url('wifivendo/userLogin')?>" method='POST'>
+                                    <form role="form" action="<?php echo base_url('wifivendo/login')?>" method='POST'>
                                         <fieldset>
                                             <div class="form-group">
                                                 <input class="form-control" placeholder="Username" name="username" type="text" autofocus required>
