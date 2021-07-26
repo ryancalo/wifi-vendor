@@ -22,7 +22,7 @@ class Printer extends CI_Model
         if(!$isConnected){
             return false;
         }
-
+        $isConnected->close();
         return true;
     }
 

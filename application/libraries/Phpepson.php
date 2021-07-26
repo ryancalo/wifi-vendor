@@ -26,16 +26,6 @@ public function __construct($config)
     }
 }
 	
-public function checkConnection($address, $port){
-    try {   
-        $connector = new NetworkPrintConnector($address, $port);
-        $printer = new Printer($connector);
-        $printer -> close();
-        return true;
-    }catch(Exception $e) {
-        return false;
-    }
-}
 
 public function printVoucher($voucherOptions){
         $logo = EscposImage::load($voucherOptions["voucher_logo"], true); 
